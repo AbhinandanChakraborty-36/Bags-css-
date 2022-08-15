@@ -54,6 +54,10 @@ nav{
     font-size: 30px;
 }
 
+.nav-link:hover{
+    color: red !important;
+}
+
 form{
     flex: 1;
     position: relative;
@@ -246,6 +250,7 @@ footer{
         top: 0px;
         z-index: 3;
         width: 100vw;
+        padding: 0;
       }
 
       .navbar-nav{
@@ -277,5 +282,9 @@ footer{
 
     .lP p{
         font-size: 0.76em;
+    }
+
+    .logo{
+        margin-top: 0.5em;
     }
 }
